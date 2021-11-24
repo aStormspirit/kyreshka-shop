@@ -1,0 +1,224 @@
+.bottom-navigation{
+    background: #2A2C2F;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bottom-navigation-wrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+}
+
+.default-navigation{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.site-branding{
+    display: flex;
+}
+
+.site-branding>img{
+    width: 50px;
+    height: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+
+.site-title{
+    margin-top: 5px;
+    font-size: 28px;
+    font-family: "Blatant", sans-serif;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.site-title>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-header-search{
+    margin-right: 40px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation-wrapper{
+    margin-right: 50px;
+}
+
+.header-actions{
+    margin-left: 50px;
+    display: flex;
+}
+
+.site-description{
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 0.18em;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Blatant", sans-serif;
+}
+
+.site-header-account{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.site-header-account>svg{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    opacity: .5;
+}
+
+.site-header-account>svg:hover{
+    fill: #C4A265;
+}
+
+.primary-menu{
+    position: relative;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.prim-menu-item{
+    margin-right: 10px;
+}
+
+.prim-menu-item>a{
+    text-decoration: none;
+    color: white;
+    font-family: "Blatant", sans-serif;
+    font-size: 21px;
+    padding: 10px 5px 25px 25px;
+}
+
+.prim-menu-item>svg{
+    fill: #fff;
+}
+
+.prim-menu-item>a:hover{
+    color: #C4A265;
+}
+
+.product-search{
+    position: relative;
+}
+
+.search-field{
+    border-radius: 5px;
+    border: none;
+    background: #222427;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #a9aaab;
+    font-weight: normal;
+    font-family: "Blatant", sans-serif;
+    padding: 13px 0 14px 53px;
+}
+
+.button-search{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #C4A265;
+    color: #fff;
+    font-family: "Blatant", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    padding: 15px 44px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.button-search:hover{
+    background-color: #B89352;
+}
+
+.product-search>svg{
+    opacity: .5;
+    position: absolute;
+    top: 12px;
+    width: 30px;
+    height: 30px;
+    left: 14px;
+    fill: #fff;
+}
+
+.cart-item{
+    position: relative;
+}
+
+.cart-item>svg{
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    opacity: .5;
+}
+
+.cart-item>svg:hover{
+    fill: #C4A265;
+}
+
+.count{
+    border-radius: 50%;
+    background-color: #C4A265;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    top: 0px;
+    left: 20px;
+    font-family: "Blatant", sans-serif;
+    opacity: 1;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.dropdown{
+    padding: 10px 18px;
+    top: 30px;
+    position: absolute;
+    background-color: white;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.dropdown>li{
+    font-size: 18px;
+    line-height: 1;
+    font-family: "Blatant", sans-serif;
+    padding: 10px 18px;
+}
+
+.dropdown>li:hover{
+    color: #C4A265;
+}
+
+.active{
+    color: #C4A265;
+    fill: #C4A265 !important;
+}

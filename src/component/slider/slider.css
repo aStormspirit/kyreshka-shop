@@ -1,0 +1,128 @@
+.main-slider{
+    position: relative;
+}
+
+
+.slide{
+position: relative;
+opacity: 0;
+transition-duration: 1s ease;
+}
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+  }
+
+.slider-img{
+    width: 100%;
+    height: 720px;
+}
+
+.slider-button{
+    position: absolute;
+    z-index: 1;
+    background: none;
+    top: 50%;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 22px;
+}
+
+.slider-button>svg{
+    fill: #fff;
+    width: 2em;
+    height: 2em;
+}
+
+.slider-button:hover{
+    background-color: #C4A265;
+}
+
+.left{
+    left: 10%;
+}
+
+.right{
+    right: 10%;
+}
+
+.slider-info{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.slider-info-title{
+    color: #fff;
+    font-family: "Blatant", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: "Blatant", sans-serif;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.slider-info-text{
+    width: 20px;
+    font-family: "Blatant", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #B89352;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.slider-info-subtitle{
+    font-size: 22px;
+    font-family: "Blatant", sans-serif;
+    line-height: 33px;
+    color: #a9aaab;
+    margin-bottom: 40px;
+}
+
+.slider-button-brown{
+    width: 160px;
+    cursor: pointer;
+    color:#fff;
+    border: 2px solid #C4A265;
+    border-radius: 4px;
+    background: #C4A265;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    padding: 19px 26px;
+    text-transform: none;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Blatant", sans-serif;
+    margin-right: 20px;
+}
+
+.slider-button-brown:hover{
+    background: #B89352;
+}
+
+.slider-button-grey{
+    width: 160px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    padding: 19px 26px;
+    text-transform: none;
+    display: inline-block;
+    background: transparent;
+    font-family: "Blatant", sans-serif;
+}
+
+.slider-button-grey:hover{
+    background: #B89352;
+    border: #B89352;
+}

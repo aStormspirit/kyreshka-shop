@@ -1,0 +1,13 @@
+.sales-section{
+
+}
+
+.sales-section__wrapper{
+    padding: 60px 16px 60px 16px;
+    height: 100%;
+    min-width: 70px;
+}
+
+[class^=post-corusel__slide-wrapper-]{
+    width: 200px;
+}
