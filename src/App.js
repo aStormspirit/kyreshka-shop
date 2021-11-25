@@ -7,6 +7,7 @@ import HeaderBottom from "./component/bottom-navigation/HeaderBottom.js";
 import Slider from './component/slider/Slider';
 import Product from './component/product/Product'
 import Corusel from './component/corusel/Corusel';
+import Cart from './component/cart/Cart'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Slider />
         <Product />
         <Corusel />
+        <Cart />
       </main>
     </div>
   );

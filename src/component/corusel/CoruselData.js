@@ -14,84 +14,84 @@ import product12 from '../../images/product13.jpg'
 export const CoruselData = [
     {
         image: product1,
-        name: 'Мониторинг качества',
+        name: 'продукт 1',
         price: 200,
         rate: 1,
         id: 1
     },
     {
         image: product2,
-        name: 'Мониторинг качества',
+        name: 'продукт 2',
         price: 200,
         rate: 1,
         id: 2
     },
     {
         image: product3,
-        name: 'Мониторинг качества',
+        name: 'продукт 3',
         price: 200,
         rate: 1,
         id: 3
     },
     {
         image: product4,
-        name: 'Мониторинг качества',
+        name: 'продукт 4',
         price: 200,
         rate: 1,
         id: 4
     },
     {
         image: product5,
-        name: 'Мониторинг качества',
+        name: 'продукт 5',
         price: 200,
         rate: 1,
         id: 5
     },
     {
         image: product6,
-        name: 'Мониторинг качества',
+        name: 'продукт 6',
         price: 200,
         rate: 1,
         id: 6
     },
     {
         image: product7,
-        name: 'Мониторинг качества',
+        name: 'продукт 7',
         price: 200,
         rate: 1,
         id: 7
     },
     {
         image: product8,
-        name: 'Мониторинг качества',
+        name: 'продукт 8',
         price: 200,
         rate: 1,
         id: 8
     },
     {
         image: product9,
-        name: 'Мониторинг качества',
+        name: 'продукт 9',
         price: 200,
         rate: 1,
         id: 9
     },
     {
         image: product10,
-        name: 'Мониторинг качества',
+        name: 'продукт 10',
         price: 200,
         rate: 1,
         id: 10
     },
     {
         image: product11,
-        name: 'Мониторинг качества',
+        name: 'продукт 11',
         price: 200,
         rate: 1,
         id: 11
     },
     {
         image: product12,
-        name: 'Мониторинг качества',
+        name: 'продукт 12',
         price: 200,
         rate: 1,
         id: 12
