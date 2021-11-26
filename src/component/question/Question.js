@@ -9,7 +9,7 @@ function Question() {
         return <div>
             <div className='accordion'>
                 <span className='accordion__header'>
-                    <a href='#'><span className='accordion__header_icon isn_active'><ImMinus /></span><span className='accordion__header_icon'><ImPlus /></span><span className='accordion__header_title'>Только свежие продукты</span></a>
+                    <a href='#' className='accordion__link'><span className='accordion__header_icon isn_active'><ImMinus /></span><span className='accordion__header_icon'><ImPlus /></span><span className='accordion__header_title'>Только свежие продукты</span></a>
                 </span>
             </div>
             <div>

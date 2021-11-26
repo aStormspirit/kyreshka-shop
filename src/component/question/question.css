@@ -15,6 +15,10 @@
     margin-bottom: 30px;
 }
 
+.accordion{
+    padding: 10px;
+}
+
 .accordion__header{
     padding: 10px;
 }
@@ -24,6 +28,10 @@
     line-height: 33px;
     letter-spacing: 0.01em;
     font-family: "Blatant", sans-serif;
+}
+
+.accordion__header_title:hover{
+    color: #C4A265;
 }
 
 .accordion__header_icon{
@@ -36,6 +44,14 @@
     fill: #1D1E21;
 }
 
-.accordion{
-    padding: 10px;
+.accordion__header_icon>svg:hover{
+    fill:#C4A265;
+}
+
+.isn_active{
+    display: none;
+}
+
+.accordion__link:hover{
+    text-decoration: none;
 }
