@@ -13,6 +13,7 @@ function Corusel() {
     const [open, setOpen] = useState(false)
 
     function openicon(e) {
+        console.log(e)
         setOpen(!open)
     }
 
@@ -22,10 +23,10 @@ function Corusel() {
 
     function Image(props) {
         return <div className={`post-corusel__slide-${props.id}`}>
-            <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`}>
+            <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`} onPointerEnter={openicon} onPointerLeave={closeicon}>
                 <img src={props.src}></img>
                 <div className='slider-icon'>
-                    <a href='#' onPointerEnter={openicon} onPointerLeave={closeicon} >
+                    <a href='#' >
                         {open && <div className='slider-icon__wrapper'><BsCart3 className='slider-icon__svg' /></div>}
                     </a>
                 </div>

@@ -15,84 +15,84 @@ export const CoruselData = [
     {
         image: product1,
         name: 'продукт 1',
-        price: 200,
+        price: '200 р/кг',
         rate: 1,
         id: 1
     },
     {
         image: product2,
         name: 'продукт 2',
-        price: 200,
+        price: '250 р/кг',
         rate: 1,
         id: 2
     },
     {
         image: product3,
         name: 'продукт 3',
-        price: 200,
+        price: '290 р/кг',
         rate: 1,
         id: 3
     },
     {
         image: product4,
         name: 'продукт 4',
-        price: 200,
+        price: '285 р/кг',
         rate: 1,
         id: 4
     },
     {
         image: product5,
         name: 'продукт 5',
-        price: 200,
+        price: '300 р/кг',
         rate: 1,
         id: 5
     },
     {
         image: product6,
         name: 'продукт 6',
-        price: 200,
+        price: '250 р/кг',
         rate: 1,
         id: 6
     },
     {
         image: product7,
         name: 'продукт 7',
-        price: 200,
+        price: '290 р/кг',
         rate: 1,
         id: 7
     },
     {
         image: product8,
         name: 'продукт 8',
-        price: 200,
+        price: '270 р/кг',
         rate: 1,
         id: 8
     },
     {
         image: product9,
         name: 'продукт 9',
-        price: 200,
+        price: '220 р/кг',
         rate: 1,
         id: 9
     },
     {
         image: product10,
         name: 'продукт 10',
-        price: 200,
+        price: '230 р/кг',
         rate: 1,
         id: 10
     },
     {
         image: product11,
         name: 'продукт 11',
-        price: 200,
+        price: '250 р/кг',
         rate: 1,
         id: 11
     },
     {
         image: product12,
         name: 'продукт 12',
-        price: 200,
+        price: '280 р/кг',
         rate: 1,
         id: 12
     }

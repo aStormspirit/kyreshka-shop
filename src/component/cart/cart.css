@@ -33,8 +33,18 @@
     padding: 15px 30px 40px;
 }
 
+.delivery__image{
+    overflow: hidden;
+}
+
+.delivery__image>img:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+}
+
 .delivery-heading{
     text-align: center;
+    height: 53px;
 }
 
 .delivery-heading>span{

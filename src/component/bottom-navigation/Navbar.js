@@ -6,12 +6,18 @@ import { useState } from 'react'
 function NavbarItem(props) {
     const [open, setOpen] = useState(false)
 
+    function closed(event) {
+        setOpen(!open)
+        console.log(event.target)
+        console.log(event.currentTarget)
+    }
+
     return (
-        <li className='prim-menu-item'>
-            <a href='#' onPointerEnter={() => { setOpen(!open) }} onPointerLeave={() => { setOpen(!open) }}>{props.name}</a>
+        <li className='prim-menu-item' onPointerEnter={() => { setOpen(!open) }} onPointerLeave={closed}>
+            <a href='#' > {props.name}</a>
             {props.icon}
             {open && props.children}
-        </li>
+        </li >
     )
 }
 

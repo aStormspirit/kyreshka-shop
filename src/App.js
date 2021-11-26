@@ -8,6 +8,7 @@ import Slider from './component/slider/Slider';
 import Product from './component/product/Product'
 import Corusel from './component/corusel/Corusel';
 import Cart from './component/cart/Cart'
+import Question from './component/question/Question';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Product />
         <Corusel />
         <Cart />
+        <Question />
       </main>
     </div>
   );
