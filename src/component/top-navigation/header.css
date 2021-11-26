@@ -60,7 +60,7 @@
 
 .icon-contacts{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .icon-item>svg{

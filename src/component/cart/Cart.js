@@ -11,7 +11,7 @@ function Cart() {
         return (
             <div className='collumn'>
                 <div className='delivery__image'>
-                    <img src={props.src}></img>
+                    <img src={props.src} alt='image'></img>
                 </div>
                 <div className='delivery__collumn-text'>
                     <div className='delivery-heading'>

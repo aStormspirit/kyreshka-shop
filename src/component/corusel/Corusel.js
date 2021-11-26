@@ -24,7 +24,7 @@ function Corusel() {
     function Image(props) {
         return <div className={`post-corusel__slide-${props.id}`}>
             <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`} onPointerEnter={openicon} onPointerLeave={closeicon}>
-                <img src={props.src}></img>
+                <img src={props.src} alt='corusel-image'></img>
                 <div className='slider-icon'>
                     <a href='#' >
                         {open && <div className='slider-icon__wrapper'><BsCart3 className='slider-icon__svg' /></div>}

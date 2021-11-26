@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React } from 'react'
 // jpg
 import logo from '../../images/logo.png'
 // css
@@ -32,8 +32,7 @@ function HeaderBottom() {
                         <Form />
                     </div>
                     <div className='site-header-account'>
-                        <a href='#'></a>
-                        <BsPerson />
+                        <a href='#'> <BsPerson /></a>
                     </div>
                     <ul className='site-header-cart'>
                         <li className='cart-item'>

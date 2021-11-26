@@ -29,3 +29,13 @@
 .accordion__header_icon{
     margin: 0 0.75em 0 0;
 }
+
+.accordion__header_icon>svg{
+    height: 2em;
+    width: 2em;
+    fill: #1D1E21;
+}
+
+.accordion{
+    padding: 10px;
+}
