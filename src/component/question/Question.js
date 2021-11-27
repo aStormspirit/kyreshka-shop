@@ -1,21 +1,33 @@
-import React from 'react'
+import { React, useState } from 'react'
 import './question.css'
 import image from '../../images/avatar.png'
 import { ImMinus, ImPlus } from "react-icons/im";
+import { QuestionData } from './QuestionData';
 
 function Question() {
 
-    function Drop() {
+    const [selected, setSelected] = useState(null)
+
+    const toggle = (i) => {
+        if (selected === i) {
+            setSelected(null)
+        } else {
+            setSelected(i)
+        }
+    }
+
+    function Drop(props) {
+
         return <div>
-            <div className='accordion'>
-                <span className='accordion__header'>
-                    <a href='#' className='accordion__link'><span className='accordion__header_icon isn_active'><ImMinus /></span><span className='accordion__header_icon'><ImPlus /></span><span className='accordion__header_title'>Только свежие продукты</span></a>
+            <div className='accordion' key={props.id}>
+                <span className='accordion__header' onClick={() => toggle(props.id)}>
+                    <a href='##' className='accordion__link'><span className='accordion__header_icon isn_active'><ImMinus /></span><span className='accordion__header_icon'><ImPlus /></span><span className='accordion__header_title'>{props.title}</span></a>
                 </span>
             </div>
-            <div>
-                <div>
-                    <p>Наша компания имеет 7-ми летний опыт, производства </p>
-                    <p></p>
+            <div className={selected === props.id ? 'accordion__content show' : 'accordion__content'}>
+                <div className='accordion__content-inner'>
+                    <p>{props.descriptions}</p>
+                    <p>{props.subtitle}</p>
                 </div>
             </div>
         </div>
@@ -31,10 +43,10 @@ function Question() {
                             <div className='quality__inner-content'>
                                 <div className='quality__heading'><h2 className='quality__heading_content'>Высочайшее качество</h2></div>
                                 <div>
-                                    <Drop />
-                                    <Drop />
-                                    <Drop />
-                                    <Drop />
+                                    {QuestionData.map((el, i) => {
+                                        return <Drop title={el.title} descriptions={el.descriptions} subtitle={el.subtitle} id={i} />
+                                    })
+                                    }
                                 </div>
                             </div>
                         </div>

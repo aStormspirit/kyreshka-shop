@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.quality__inner-wrapper{
+    padding-left: 100px;
+}
+
 .quality__collumns{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,4 +58,32 @@
 
 .accordion__link:hover{
     text-decoration: none;
+}
+
+.accordion__content{
+    height: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    background: #F6F4F2;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0,1,0,1);
+}
+
+.show{
+    padding: 23px 35px;
+    height: auto;
+    transition: all 1s cubic-bezier(1,0,1,0);
+
+}
+
+.accordion__content-inner>p{
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.03em;
+}
+
+.accordion__content>p:first-child{
+    margin-bottom: 1.5em;
 }

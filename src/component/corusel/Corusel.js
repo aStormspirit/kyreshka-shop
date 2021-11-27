@@ -10,24 +10,19 @@ import { BsCart3 } from "react-icons/bs";
 
 function Corusel() {
 
-    const [open, setOpen] = useState(false)
+    const [selected, setselected] = useState(null)
 
-    function openicon(e) {
-        console.log(e)
-        setOpen(!open)
-    }
-
-    function closeicon() {
-        setOpen(!open)
+    const toggle = (i) => {
+        setselected(i)
     }
 
     function Image(props) {
         return <div className={`post-corusel__slide-${props.id}`}>
-            <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`} onPointerEnter={openicon} onPointerLeave={closeicon}>
+            <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`} onPointerEnter={() => toggle(props.id)} onPointerLeave={() => setselected(null)}>
                 <img src={props.src} alt='corusel-image'></img>
                 <div className='slider-icon'>
                     <a href='#' >
-                        {open && <div className='slider-icon__wrapper'><BsCart3 className='slider-icon__svg' /></div>}
+                        {selected === props.id && <div className='slider-icon__wrapper'><BsCart3 className='slider-icon__svg' /></div>}
                     </a>
                 </div>
             </div>

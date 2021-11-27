@@ -81,7 +81,7 @@ nav{
     align-items: center;
 }
 
-.site-header-account>svg{
+.site-header-account>a>svg{
     width: 30px;
     height: 30px;
     fill: #fff;
