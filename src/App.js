@@ -9,6 +9,8 @@ import Product from './component/product/Product'
 import Corusel from './component/corusel/Corusel';
 import Cart from './component/cart/Cart'
 import Question from './component/question/Question';
+import Post from './component/post/Post';
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
         <Corusel />
         <Cart />
         <Question />
+        <Post />
       </main>
+      <Footer />
     </div>
   );
 }
