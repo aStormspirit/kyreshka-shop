@@ -1,0 +1,31 @@
+.pagination{
+    display: flex;
+}
+
+.page-item{
+    margin: 0 10px 10px 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #666;
+    padding-left: 1px;
+}
+
+.page-link{
+    text-decoration: none;
+    color: #666;
+}
+
+.page-link:hover{
+    text-decoration: none;
+}
+
+.current>a{
+    color: #fff !important;
+}

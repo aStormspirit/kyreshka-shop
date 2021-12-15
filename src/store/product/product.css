@@ -1,0 +1,86 @@
+.product{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.product-wrapper{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.product_container{
+    min-width: 1170px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product_image-wrapper{
+    margin-right: 165px;
+    flex: 1 1 50%;
+}
+
+.product_image>img{
+    width: 460px;
+}
+
+.product_title{
+    flex: 1 1 50%;
+}
+
+.product_title__name{
+    color: #1D1E21;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.product_title__price{
+    margin: 12px 0 15px;
+    font-family: "Blatant", sans-serif;
+    color: #C4A265;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 21px;
+    letter-spacing: 0.03em; 
+}
+
+.product_title__descriptions{
+  font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 40px;  
+}
+.product_form__input{
+    max-width: 60px;
+padding: 10px 14px 10px;
+text-align: center;
+font-size: 26px;
+line-height: 33px;
+letter-spacing: 0.01em;
+font-family: "Blatant", sans-serif;
+margin-right: 15px;
+}
+
+.product_form__button{
+    text-align: center;
+    border: 2px solid #C4A265;
+    border-radius: 4px;
+    background: #C4A265;
+    color: #fff;
+    font-family: "Blatant", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    padding: 15px 44px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    display: inline-block;
+    outline: none;
+    padding-bottom: 14px;
+    padding-top: 18px;
+}

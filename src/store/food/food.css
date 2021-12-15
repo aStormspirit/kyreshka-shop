@@ -1,0 +1,60 @@
+
+.food_page{
+    justify-content:center;
+    display: flex;
+}
+
+.food_wrapper{display: flex;
+margin-bottom: 20px;
+align-items: center;
+justify-content: space-between;
+}
+
+.food_result__count{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.food_nav__list{
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+.food_nav__list>svg{
+    width: 16px;
+    height: 16px;
+    fill: #C4A265;
+}
+
+.current{
+    background: #C4A265;
+    color: #fff !important;
+}
+
+.food_page__pages{
+    margin: 0 10px 10px 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+}
+
+.food_products{
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}

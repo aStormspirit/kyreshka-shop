@@ -7,7 +7,7 @@ function Post() {
     function Cart(props) {
         return <article className='post__reciepts-post'>
             <div key={props.id}>
-                <div>
+                <div className='post__img'>
                     <img src={props.img} alt="img" />
                 </div>
                 <div className='reciepts-post__content-wrapper'>

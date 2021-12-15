@@ -1,0 +1,24 @@
+.widget_title{
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    color: #1D1E21;
+    font-size: 21px;
+    line-height: 21px;
+    font-family: "Blatant", sans-serif;
+    font-weight: 400;
+}
+
+.widget_item{
+    margin: 0 0 2em;
+}
+
+.widget_item>a{
+color: #1D1E21;
+font-size: 16px;
+font-family: "Open Sans", sans-serif;
+}
+
+.widget_item>a:hover{
+    text-decoration: none;
+}

@@ -101,6 +101,10 @@ transition-duration: 1s ease;
     box-sizing: border-box;
     font-family: "Blatant", sans-serif;
     margin-right: 20px;
+    text-align: center;
+}
+.slider-button-brown:hover{
+    text-decoration: none;
 }
 
 .slider-button-brown:hover{

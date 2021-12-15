@@ -1,7 +1,10 @@
 import React from 'react'
-import HeaderTop from "./component/top-navigation/HeaderTop.js";
-import HeaderBottom from "./component/bottom-navigation/HeaderBottom.js"
+import HeaderTop from "../component/top-navigation/HeaderTop.js";
+import HeaderBottom from "../component/bottom-navigation/HeaderBottom.js"
 import './store.css'
+import Food from './food/Food.js';
+import Panel from './panel/Panel.jsx';
+import Breadcrumbs from '../component/breadcrumbs/Breadcrumbs'
 
 const Store = () => {
     return (
@@ -24,10 +27,11 @@ const Store = () => {
                 </div>
             </div>
             <div>
-                
+                <Breadcrumbs />
             </div>
-            <main>
-
+            <main className='cite_store__main'>
+                <Panel />
+                <Food />
             </main>
         </div>
     )

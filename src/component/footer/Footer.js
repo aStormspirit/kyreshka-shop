@@ -91,7 +91,12 @@ function Footer() {
                     <div className='footer__site-info'>
                         Курёшка © 2021 Все права защищенны</div>
                     <div></div>
-                    <div></div>
+                    <div>
+                        <ul className='footer_menu'>
+                            <li className='footer_menu__item'><a href="##">политика конфиденциальности</a></li>
+                            <li className='footer_menu__item'><a href="##">Правила и условия</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>

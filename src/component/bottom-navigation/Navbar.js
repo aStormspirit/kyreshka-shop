@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillCaretDown } from "react-icons/ai";
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 function NavbarItem(props) {
@@ -8,8 +9,6 @@ function NavbarItem(props) {
 
     function closed(event) {
         setOpen(!open)
-        console.log(event.target)
-        console.log(event.currentTarget)
     }
 
     return (
@@ -29,7 +28,7 @@ function Navbar() {
             <div className='main-navigation-wrapper'>
                 <ul className='primary-menu'>
                     <li className='prim-menu-item'>
-                        <a href='#'>Магазин</a>
+                        <Link to='/store'>Магазин</Link>
                     </li>
                     <NavbarItem name='Колбаса' icon={<AiFillCaretDown />}>
                         <ul className='dropdown'>

@@ -5,6 +5,8 @@ import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import './slider.css'
 import { SliderData } from './SliderData';
 
+import { Link } from 'react-router-dom'
+
 function Slider() {
 
     const [current, setCurrent] = useState(0)
@@ -31,7 +33,7 @@ function Slider() {
                     <h3 className='slider-info-title'>{props.title}</h3>
                     <h2 className='slider-info-text'>{props.name}</h2>
                     <h4 className='slider-info-subtitle'>{props.info}</h4>
-                    <button className='slider-button-brown'>Магазин</button>
+                    <Link to='/store' className='slider-button-brown'>Магазин</Link>
                     <button className='slider-button-grey'>О нас</button>
                 </div>
                 <img className='slider-img' src={props.src}></img>

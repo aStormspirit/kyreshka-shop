@@ -4,6 +4,7 @@ import image2 from '../../images/fresh.png'
 import image3 from '../../images/prof.png'
 import image4 from '../../images/quality.png'
 import './cart.css'
+import { Link } from 'react-router-dom'
 
 function Cart() {
 
@@ -19,7 +20,7 @@ function Cart() {
                     </div>
                     <p className='delivery-subtitle'>Все наши продукты имеют высокое качество и всегда проверяются перед отправкой</p>
                     <div className='delivery-button'>
-                        <div className='delivery__button-wrapper'><a href='#'>В магазин</a></div>
+                        <div className='delivery__button-wrapper'><Link to='/store'>В магазин</Link></div>
                     </div>
                 </div>
             </div>

@@ -84,3 +84,12 @@
     color: #C4A265;
     text-decoration: none;
 }
+
+.post__img{
+    overflow: hidden;
+}
+
+.post__img>img:hover{
+    transition: all 0.5s ease-out;
+    transform: scale(1.1);
+}

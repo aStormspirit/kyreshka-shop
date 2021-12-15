@@ -1,0 +1,35 @@
+.food_product__item{
+margin-bottom: 40px;
+}
+
+.product_item_link{
+margin-bottom: 10px;
+display: block;
+color: #C4A265;
+text-decoration: none;
+}
+
+.food_product_image{
+    margin-bottom: 20px;
+}
+
+.product_item_link>h2{
+font-weight: normal;
+font-size: 21px;
+line-height: 1;
+letter-spacing: 0.01em;
+color: #1D1E21;
+text-align: center;
+}
+
+.product_item_amount{
+    justify-content: center;
+display: flex;
+font-family: "Blatant", sans-serif;
+color: #C4A265;
+font-weight: normal;
+font-size: 21px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.03em;  
+}

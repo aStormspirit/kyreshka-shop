@@ -139,6 +139,10 @@ footer{
     color: #FFFFFF;
 }
 
+.footer__menu-item>a:hover{
+    color: #C4A265;
+}
+
 .footer_icon-contacts{
     display: flex;
 }
@@ -149,6 +153,11 @@ footer{
     fill: #a9aaab;
     width: 4em;
     height: 4em;
+}
+
+.footer_icon-item>svg:hover{
+    cursor: pointer;
+    fill: #C4A265;
 }
 
 .footer__widget_contacts{
@@ -169,21 +178,50 @@ footer{
 }
 
 .footer__info-wrapper{
-margin: 0 auto;
-padding: 55px 0;
-display: flex;
--webkit-box-align: center;
-align-items: center;
-justify-content: space-between;
+    margin: 0 auto;
+    padding: 55px 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer__site-info{
     font-family: "Open Sans", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-opacity: 0.7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer_menu{
+    display: flex;
+}
+
+.footer_menu__item{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    opacity: 0.7;
+    padding: 5px 10px;   
+}
+
+.footer_menu__item:first-child:after{
+    margin-left: 15px;
+    content: '|';
+    color: white;
+}
+
+.footer_menu__item>a{
+    color: white;
+}
+
+.footer_menu__item>a:hover{
+    text-decoration: none;
 }

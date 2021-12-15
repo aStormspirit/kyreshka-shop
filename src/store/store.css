@@ -1,5 +1,5 @@
 .store-header{
-    background: url('./images/store-header.jpg');
+    background: url('../images/store-header.jpg');
     min-height: 420px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,4 +42,11 @@
     margin-right: 5px;
     font-size: 50px;
     line-height: 35px;
+}
+
+.cite_store__main{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    padding-left: 60px;
+    padding-right: 60px;
 }
