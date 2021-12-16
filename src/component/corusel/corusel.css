@@ -8,6 +8,10 @@
     min-width: 70px;
 }
 
+[class^=post-corusel__slide-]{
+    max-width: 250px;
+}
+
 [class^=post-corusel__slide-wrapper-]{
     width: 248px;
     height: 258px;

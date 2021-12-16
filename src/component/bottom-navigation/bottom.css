@@ -220,6 +220,6 @@ nav{
 }
 
 .active{
-    color: #C4A265;
+    color: #C4A265 !important;
     fill: #C4A265 !important;
 }

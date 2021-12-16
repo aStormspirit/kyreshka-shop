@@ -1,0 +1,15 @@
+.slice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slice-title{
+    text-align: center;
+    color: #1D1E21;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}

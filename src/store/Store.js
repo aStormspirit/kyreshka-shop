@@ -5,6 +5,7 @@ import './store.css'
 import Food from './food/Food.js';
 import Panel from './panel/Panel.jsx';
 import Breadcrumbs from '../component/breadcrumbs/Breadcrumbs'
+import Footer from '../component/footer/Footer';
 
 const Store = () => {
     return (
@@ -33,6 +34,9 @@ const Store = () => {
                 <Panel />
                 <Food />
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }
