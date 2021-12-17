@@ -1,14 +1,20 @@
-import React, { useState } from 'react'
-import { Foods } from './FoodData'
+import React, { useState, useEffect } from 'react'
 import './food.css'
-import { BsGrid3X3Gap, BsGrid3X2Gap } from "react-icons/bs";
 import FoodId from './FoodId';
 import Pagination from '../pagination/Pagination'
+import { useSelector } from 'react-redux'
+import { TiThMenu, TiThLarge } from "react-icons/ti";
 
 const Food = () => {
+    const Foods = useSelector((state) => state.foods.foods)
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage] = useState(12);
+    const [postsPerPage] = useState(12)
     const slice = Foods.slice(0, 12)
+
+    useEffect(() => {
+        setCurrentPage(1)
+    }, [])
+
 
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -19,10 +25,15 @@ const Food = () => {
     return (
         <div className='food'>
             <div className='food_wrapper'>
-                <nav><a href="##" className='food_nav__list'><BsGrid3X3Gap /></a> <a href="##" className='food_nav__list'><BsGrid3X2Gap /></a></nav>
+                <nav><a href="##" className='food_nav__list'><TiThLarge /></a> <a href="##" className='food_nav__list'><TiThMenu /></a></nav>
                 <p className='food_result__count'>
-                    Showing 1–16 of 20 results</p>
-                <form action=""></form>
+                    Показано {indexOfFirstPost + 1}–{indexOfLastPost > Foods.length ? Foods.length : indexOfLastPost} из {Foods.length} результатов</p>
+                <select className="order">
+                    <option value="default">Стандартная сортировка</option>
+                    <option value="minmax">По цене: от меньшего к большему</option>
+                    <option value="maxmin">По цене: от большего к меньшему</option>
+                    <option value="popularity">По популярности</option>
+                </select>
             </div>
             <div></div>
             <ul className='food_products'>
