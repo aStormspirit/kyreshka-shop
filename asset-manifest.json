@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/kyreshka-shop/static/css/main.3d05fda4.chunk.css",
-    "main.js": "/kyreshka-shop/static/js/main.39f73cab.chunk.js",
-    "main.js.map": "/kyreshka-shop/static/js/main.39f73cab.chunk.js.map",
+    "main.css": "/kyreshka-shop/static/css/main.710f1060.chunk.css",
+    "main.js": "/kyreshka-shop/static/js/main.e64bcda8.chunk.js",
+    "main.js.map": "/kyreshka-shop/static/js/main.e64bcda8.chunk.js.map",
     "runtime-main.js": "/kyreshka-shop/static/js/runtime-main.57413f3f.js",
     "runtime-main.js.map": "/kyreshka-shop/static/js/runtime-main.57413f3f.js.map",
     "static/css/2.11eceb09.chunk.css": "/kyreshka-shop/static/css/2.11eceb09.chunk.css",
-    "static/js/2.d14e4ba7.chunk.js": "/kyreshka-shop/static/js/2.d14e4ba7.chunk.js",
-    "static/js/2.d14e4ba7.chunk.js.map": "/kyreshka-shop/static/js/2.d14e4ba7.chunk.js.map",
+    "static/js/2.fb4951f0.chunk.js": "/kyreshka-shop/static/js/2.fb4951f0.chunk.js",
+    "static/js/2.fb4951f0.chunk.js.map": "/kyreshka-shop/static/js/2.fb4951f0.chunk.js.map",
     "index.html": "/kyreshka-shop/index.html",
     "static/css/2.11eceb09.chunk.css.map": "/kyreshka-shop/static/css/2.11eceb09.chunk.css.map",
-    "static/css/main.3d05fda4.chunk.css.map": "/kyreshka-shop/static/css/main.3d05fda4.chunk.css.map",
-    "static/js/2.d14e4ba7.chunk.js.LICENSE.txt": "/kyreshka-shop/static/js/2.d14e4ba7.chunk.js.LICENSE.txt",
+    "static/css/main.710f1060.chunk.css.map": "/kyreshka-shop/static/css/main.710f1060.chunk.css.map",
+    "static/js/2.fb4951f0.chunk.js.LICENSE.txt": "/kyreshka-shop/static/js/2.fb4951f0.chunk.js.LICENSE.txt",
     "static/media/avatar.da3f6552.png": "/kyreshka-shop/static/media/avatar.da3f6552.png",
     "static/media/chicken.4b2707e5.png": "/kyreshka-shop/static/media/chicken.4b2707e5.png",
     "static/media/fresh.12814cd5.png": "/kyreshka-shop/static/media/fresh.12814cd5.png",
+    "static/media/about.css": "/kyreshka-shop/static/media/header-about.7df5eb9d.jpg",
     "static/media/lamb.ea433d57.png": "/kyreshka-shop/static/media/lamb.ea433d57.png",
     "static/media/logo.8c12b119.png": "/kyreshka-shop/static/media/logo.8c12b119.png",
     "static/media/meat.e26c0910.png": "/kyreshka-shop/static/media/meat.e26c0910.png",
     "static/media/ontime.7068e207.jpg": "/kyreshka-shop/static/media/ontime.7068e207.jpg",
     "static/media/pork.6e5b200b.png": "/kyreshka-shop/static/media/pork.6e5b200b.png",
+    "static/media/post1.029ec7b6.jpg": "/kyreshka-shop/static/media/post1.029ec7b6.jpg",
+    "static/media/post2.6e961196.jpg": "/kyreshka-shop/static/media/post2.6e961196.jpg",
+    "static/media/post3.7f99bf6e.jpg": "/kyreshka-shop/static/media/post3.7f99bf6e.jpg",
+    "static/media/post4.d5c8e84a.jpg": "/kyreshka-shop/static/media/post4.d5c8e84a.jpg",
     "static/media/product.css": "/kyreshka-shop/static/media/product-bg.a9f1c3d4.png",
     "static/media/product1.d850b9f0.jpg": "/kyreshka-shop/static/media/product1.d850b9f0.jpg",
     "static/media/product10.3dcad46e.jpg": "/kyreshka-shop/static/media/product10.3dcad46e.jpg",
@@ -39,13 +44,14 @@
     "static/media/slide1.cfc24f27.png": "/kyreshka-shop/static/media/slide1.cfc24f27.png",
     "static/media/slide2.1956c0bc.png": "/kyreshka-shop/static/media/slide2.1956c0bc.png",
     "static/media/slide3.b87b6104.png": "/kyreshka-shop/static/media/slide3.b87b6104.png",
-    "static/media/slide4.73e5d683.png": "/kyreshka-shop/static/media/slide4.73e5d683.png"
+    "static/media/slide4.73e5d683.png": "/kyreshka-shop/static/media/slide4.73e5d683.png",
+    "static/media/store.css": "/kyreshka-shop/static/media/store-header.c60b9b17.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.57413f3f.js",
     "static/css/2.11eceb09.chunk.css",
-    "static/js/2.d14e4ba7.chunk.js",
-    "static/css/main.3d05fda4.chunk.css",
-    "static/js/main.39f73cab.chunk.js"
+    "static/js/2.fb4951f0.chunk.js",
+    "static/css/main.710f1060.chunk.css",
+    "static/js/main.e64bcda8.chunk.js"
   ]
 }
