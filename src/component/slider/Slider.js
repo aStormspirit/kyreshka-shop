@@ -26,7 +26,7 @@ function Slider() {
     }
 
     function Image(props) {
-        console.log(props)
+
         return (
             <div>
                 <div className='slider-info'>

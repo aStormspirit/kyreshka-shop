@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState } from 'react'
 import './food.css'
 import Image from '../../component/corusel/Image'
 import Pagination from '../pagination/Pagination'

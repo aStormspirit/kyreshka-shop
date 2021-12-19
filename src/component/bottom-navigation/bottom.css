@@ -167,6 +167,7 @@ nav{
 
 .cart-item{
     position: relative;
+    cursor: pointer;
 }
 
 .cart-item>svg{

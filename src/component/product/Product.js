@@ -16,8 +16,6 @@ function Product() {
         </li>
     }
 
-    console.log(ProductData)
-
     return (
         <section className='section'>
             <div className='section__wrapper'>
