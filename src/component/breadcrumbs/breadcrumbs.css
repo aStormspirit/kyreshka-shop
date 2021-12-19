@@ -23,7 +23,7 @@
     margin-right: 10px;
 }
 
-.bc_info>a,p,h2{
+.bc_info_item{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

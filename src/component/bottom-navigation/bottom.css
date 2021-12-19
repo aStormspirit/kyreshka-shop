@@ -209,6 +209,7 @@ nav{
 }
 
 .dropdown>li{
+    cursor: pointer;
     font-size: 18px;
     line-height: 1;
     font-family: "Blatant", sans-serif;

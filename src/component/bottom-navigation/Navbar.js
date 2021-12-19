@@ -45,7 +45,7 @@ function Navbar() {
                     <NavbarItem name='О нас' icon={<AiFillCaretDown />}>
                         <ul className='dropdown'>
                             <li>Блог</li>
-                            <li>Связаться с нами</li>
+                            <li><Link to='/kyreshka-shop'>Связаться с нами</Link></li>
                         </ul>
                     </NavbarItem>
                 </ul>

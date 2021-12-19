@@ -1,14 +1,15 @@
 import { React } from 'react'
+import { Link } from 'react-router-dom'
 // jpg
 import logo from '../../images/logo.png'
 // css
 import './bottom.css'
 // icons
-import { MdShoppingCart } from "react-icons/md";
 import { BsPerson } from "react-icons/bs";
 // components
 import Form from "./Form.js"
 import Navbar from './Navbar.js';
+import Basket from '../basket/Basket'
 
 function HeaderBottom() {
 
@@ -20,7 +21,7 @@ function HeaderBottom() {
                         <img src={logo} alt='logo'></img>
                         <div className='site-text'>
                             <p className='site-title'>
-                                <a href='#'>Курёшка</a>
+                                <Link to='/'>Курёшка</Link>
                             </p>
                             <p className='site-description'>Свежее мясо&кура</p>
                         </div>
@@ -34,14 +35,7 @@ function HeaderBottom() {
                     <div className='site-header-account'>
                         <a href='#'> <BsPerson /></a>
                     </div>
-                    <ul className='site-header-cart'>
-                        <li className='cart-item'>
-                            <a href="#"></a>
-                            <MdShoppingCart />
-                            <span className='count'>o</span>
-                        </li>
-                        <li className='cart-item'></li>
-                    </ul>
+                    <Basket />
                 </div>
             </div>
         </div>

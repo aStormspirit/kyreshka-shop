@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { BsCart3 } from "react-icons/bs";
+import { Link } from 'react-router-dom'
 
 const Image = (props) => {
     const [selected, setselected] = useState(null)
@@ -12,9 +13,9 @@ const Image = (props) => {
             <div key={props.id} className={`post-corusel__slide-wrapper-${props.id}`} onPointerEnter={() => toggle(props.id)} onPointerLeave={() => setselected(null)}>
                 <img src={props.src} alt='corusel-image'></img>
                 <div className='slider-icon'>
-                    <a href='#' >
+                    <Link to={`product/${props.id}`}>
                         {selected === props.id && <div className='slider-icon__wrapper'><BsCart3 className='slider-icon__svg' /></div>}
-                    </a>
+                    </Link>
                 </div>
             </div>
             <a href='#' className='slide-link'><h2 className='slider-name'>{props.name}</h2></a>

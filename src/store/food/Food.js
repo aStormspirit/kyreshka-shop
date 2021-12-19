@@ -1,20 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import './food.css'
-import FoodId from './FoodId';
+import Image from '../../component/corusel/Image'
 import Pagination from '../pagination/Pagination'
 import { useSelector } from 'react-redux'
 import { TiThMenu, TiThLarge } from "react-icons/ti";
+import NoImg from '../../images/noImg.png'
 
 const Food = () => {
     const Foods = useSelector((state) => state.foods.foods)
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage] = useState(12)
     const slice = Foods.slice(0, 12)
-
-    useEffect(() => {
-        setCurrentPage(1)
-    }, [])
-
 
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -39,7 +35,7 @@ const Food = () => {
             <ul className='food_products'>
                 {currentPosts.map((prod, id) => {
                     return (
-                        <FoodId prod={prod} id={id} />
+                        <Image src={prod.image ? prod.Image : NoImg} id={prod.id} name={prod.name} price={prod.price} />
                     )
                 })}
             </ul>
